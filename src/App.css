@@ -5,9 +5,9 @@
 }
 
 body {
-  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  background-image: linear-gradient(120deg, #6e6544 0%, #f54d1e 100%);
   color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   min-height: 100vh;
 }
 
@@ -33,8 +33,8 @@ form button {
 }
 
 form button {
-  color: #ff6f47;
-  background: #f7fffe;
+  color: #f7d2c8;
+  background: #545a5a;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -76,7 +76,7 @@ form button:hover {
 
 .trash-btn,
 .complete-btn {
-  background: #ff6f47;
+  background: #131110;
   color: white;
   border: none;
   padding: 1rem;
@@ -145,9 +145,9 @@ select {
   pointer-events: none;
 }
 
-/* Transition */
-/*
-.select:hover::after {
-  transform: scale(1.5);
+.display {
+  position: absolute;
+  transform: translate(-80%, 170%);
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
 }
-*/

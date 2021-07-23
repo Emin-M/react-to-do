@@ -52,7 +52,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Ed's To-Do List</h1>
+        <h1>To-Do List</h1>
       </header>
       <Form 
         todos={todos} 
